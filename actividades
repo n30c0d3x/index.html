@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+
+<meta charset="UTF-8">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>CJ20523</title>
+
+<link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+<header>
+
+<img src="CJ-removebg-preview def.png" class="logo" alt="Logo del colegio">
+
+<h1>Institución Educativa Emblemática N.º 20523</h1>
+
+<p>"Siempre los mejores"</p>
+
+</header>
+
+<section class="banner">
+    <img src="GIl0EY9WsAAtQ4m.jpg" alt="Institución Educativa">
+</section>
+
+<nav>
+
+<a href="index.html">🏠 Inicio</a>
+
+<a href="nosotros.html">👥 Nosotros</a>
+
+<a href="actividades.html">📅 Actividades</a>
+
+</nav>
+
+<main>
+
+<main>
+
+<main>
+
+<h2>Actividades Institucionales</h2>
+
+<h3>🎉 Aniversario Institucional</h3>
+
+<p>
+Celebración anual en la que participan estudiantes, docentes y personal administrativo. Se realizan actividades deportivas, culturales, artísticas y académicas para conmemorar un año más de nuestra institución.
+</p>
+
+<h3>🇵🇪 Fiestas Patrias</h3>
+
+<p>
+Durante el mes de julio se desarrollan ceremonias cívicas, concursos, presentaciones artísticas y desfiles escolares para fortalecer el amor y respeto por nuestro país.
+</p>
+
+<h3>👩‍🏫 Día del Maestro</h3>
+
+<p>
+Jornada dedicada a reconocer la labor de los docentes mediante actividades organizadas por los estudiantes y la comunidad educativa.
+</p>
+
+<h3>📚 Semana de Gestión</h3>
+
+<p>
+Período destinado a la planificación, organización y evaluación de las actividades académicas e institucionales con la participación del personal docente y directivo.
+</p>
+
+</main>
+
+</main>
+<footer>
+
+<p>© 2026 Institución Educativa Emblemática N.º 20523</p>
+
+<p>Este sitio web tiene fines informativos.</p>
+
+</footer>
+<script src="script.js"></script>
+
+</body>
+
+</html>
