@@ -107,3 +107,27 @@ main p{
     line-height:1.6;
     box-shadow:0 2px 6px rgba(0,0,0,0.15);
 }
+details{
+    background:white;
+    border-radius:10px;
+    margin:20px 0;
+    box-shadow:0 2px 8px rgba(0,0,0,.15);
+    overflow:hidden;
+}
+
+summary{
+    background:#8B0000;
+    color:white;
+    padding:15px;
+    cursor:pointer;
+    font-size:20px;
+    font-weight:bold;
+}
+
+summary:hover{
+    background:#a00000;
+}
+
+details p{
+    margin:15px;
+}
