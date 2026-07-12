@@ -81,3 +81,14 @@ main{
     object-fit:cover;
     display:block;
 }
+footer{
+    background:#8B0000;
+    color:white;
+    text-align:center;
+    padding:25px;
+    margin-top:40px;
+}
+
+footer p{
+    margin:5px;
+}
