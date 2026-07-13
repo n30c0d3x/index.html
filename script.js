@@ -9,7 +9,7 @@ document.addEventListener("keydown", function(event) {
     }
 
     if (codigo.endsWith("2011")) {
-        window.location.href = "easter.html";
+        window.location.href = "secret.html";
     }
 
 });
