@@ -197,8 +197,8 @@ header h1{
     content:"";
     position:absolute;
 
-    top:20%;
-    bottom:20%;
+    top:10%;
+    bottom:10%;
 
     left:-40px;
     width:35px;
@@ -232,7 +232,7 @@ header h1{
         left:0px;
     }
     to{
-        left:400px;
+        left:100px;
     }
 }
 .titulo{
