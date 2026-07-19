@@ -197,8 +197,8 @@ header h1{
     content:"";
     position:absolute;
 
-    top:8%;
-    bottom:8%;
+    top:6%;
+    bottom:6%;
 
     left:-40px;
     width:35px;
@@ -237,4 +237,19 @@ header h1{
 }
 .titulo{
     text-align:left;
+}
+body{
+    animation: aparecer 0.8s ease;
+}
+
+@keyframes aparecer{
+    from{
+        opacity:0;
+        transform:translateY(10px);
+    }
+
+    to{
+        opacity:1;
+        transform:translateY(0);
+    }
 }
