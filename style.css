@@ -179,6 +179,17 @@ header h1{
             drop-shadow(0 0 60px #ffffff);
     }
 }
+@keyframes flotar{
+    0%{
+        transform: translateY(0);
+    }
+    50%{
+        transform: translateY(-8px);
+    }
+    100%{
+        transform: translateY(0);
+    }
+}
 .titulo{
     text-align:left;
 }
