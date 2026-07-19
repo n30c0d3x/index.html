@@ -165,6 +165,7 @@ header h1{
     width:300px;
     height:auto;
     margin:0;
+    }
 .logo-contenedor{
     position:relative;
     display:inline-block;
@@ -177,7 +178,7 @@ header h1{
     top:-50%;
     left:-80%;
 
-    width:40%;
+    width:180px;
     height:200%;
 
     background:linear-gradient(
