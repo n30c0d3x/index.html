@@ -229,10 +229,10 @@ header h1{
 }
 @keyframes sweep{
     from{
-        left:0px;
+        left:100px;
     }
     to{
-        left:100px;
+        left:300px;
     }
 }
 .titulo{
