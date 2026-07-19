@@ -172,22 +172,39 @@ header h1{
     overflow:hidden;
 }
 
+.logo-contenedor{
+    position:relative;
+    display:inline-block;
+}
+
+.logo{
+    width:300px;
+    display:block;
+}
+
 .logo-contenedor::after{
     content:"";
     position:absolute;
-    inset:0;
+    top:0;
+    left:-150%;
+
+    width:60%;
+    height:100%;
 
     background:linear-gradient(
         120deg,
         transparent,
-        white,
+        rgba(255,255,255,.9),
         transparent
     );
 
-    -webkit-mask:url("CJ-removebg-preview def.png") center/contain no-repeat;
-    mask:url("CJ-removebg-preview def.png") center/contain no-repeat;
+    transform:skewX(-25deg);
+
+    mix-blend-mode:screen;
 
     animation:sweep 4s infinite;
+
+    pointer-events:none;
 }
 
 @keyframes sweep{
