@@ -197,8 +197,8 @@ header h1{
     content:"";
     position:absolute;
 
-    top:6%;
-    bottom:6%;
+    top:5%;
+    bottom:5%;
 
     left:-40px;
     width:35px;
@@ -252,4 +252,12 @@ body{
         opacity:1;
         transform:translateY(0);
     }
+}
+nav a{
+    transition:.3s;
+}
+
+nav a:hover{
+    color:white;
+    transform:translateY(-3px);
 }
