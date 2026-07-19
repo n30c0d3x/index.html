@@ -253,12 +253,33 @@ header h1{
     -webkit-mask-position:center;
 }
 @keyframes sweep{
-    from{
-        left:75px;
+
+    0%{
+        left:-40px;
+        opacity:0;
     }
-    to{
+
+    20%{
+        opacity:0;
+    }
+
+    30%{
+        opacity:1;
+    }
+
+    70%{
+        opacity:1;
+    }
+
+    80%{
+        opacity:0;
+    }
+
+    100%{
         left:175px;
+        opacity:0;
     }
+
 }
 .titulo{
     text-align:left;
