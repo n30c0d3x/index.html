@@ -256,11 +256,11 @@ header h1{
 
     0%{
         left:0px;
-        opacity:0;
+        opacity:1;
     }
 
     20%{
-        opacity:0;
+        opacity:1;
     }
 
     30%{
@@ -272,11 +272,11 @@ header h1{
     }
 
     80%{
-        opacity:0;
+        opacity:1;
     }
 
     100%{
-        left:500px;
+        left:200px;
         opacity:0;
     }
 
