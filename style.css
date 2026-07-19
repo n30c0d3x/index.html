@@ -182,29 +182,31 @@ header h1{
     display:block;
 }
 
+.logo-contenedor{
+    position:relative;
+    display:inline-block;
+    overflow:hidden;
+}
+
 .logo-contenedor::after{
     content:"";
     position:absolute;
-    top:0;
-    left:-150%;
+    top:-30%;
+    left:-120%;
 
-    width:60%;
-    height:100%;
+    width:35px;
+    height:170%;
 
     background:linear-gradient(
-        120deg,
+        to right,
         transparent,
-        rgba(255,255,255,.9),
+        rgba(255,255,255,.95),
         transparent
     );
 
-    transform:skewX(-25deg);
+    transform:rotate(18deg);
 
-    mix-blend-mode:screen;
-
-    animation:sweep 4s infinite;
-
-    pointer-events:none;
+    animation:sweep 3.5s infinite;
 }
 
 @keyframes sweep{
