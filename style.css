@@ -167,10 +167,10 @@ header h1{
     }
 }
 .logo{
-    width:250px;
-    margin:0;
+    width: 300px;
+    height: auto;
+    margin: 0;
 }
-
 .titulo{
     text-align:left;
 }
