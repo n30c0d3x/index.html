@@ -197,8 +197,8 @@ header h1{
     content:"";
     position:absolute;
 
-    top:10%;
-    bottom:10%;
+    top:9%;
+    bottom:9%;
 
     left:-40px;
     width:35px;
@@ -229,7 +229,7 @@ header h1{
 }
 @keyframes sweep{
     from{
-        left:35px;
+        left:50px;
     }
     to{
         left:175px;
