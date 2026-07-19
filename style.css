@@ -170,6 +170,18 @@ header h1{
     width: 300px;
     height: auto;
     margin: 0;
+     animation: brillo 2s infinite alternate;
+}
+
+@keyframes brillo{
+    from{
+        filter: drop-shadow(0 0 5px gold);
+    }
+    to{
+        filter: drop-shadow(0 0 20px gold)
+                drop-shadow(0 0 35px orange);
+    }
+}
 }
 .titulo{
     text-align:left;
