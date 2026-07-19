@@ -197,8 +197,8 @@ header h1{
     content:"";
     position:absolute;
 
-    top:8%;
-    bottom:8%;
+    top:24%;
+    bottom:24%;
 
     left:-40px;
     width:35px;
@@ -217,13 +217,13 @@ header h1{
     animation:sweep 3.5s infinite;
 
     pointer-events:none;
-  mask-image:url("CJ-removebg-preview def.png");
-    mask-size:contain;
+ mask-image:url("CJ-removebg-preview def.png");
+    mask-size:300px auto;
     mask-repeat:no-repeat;
     mask-position:center;
 
     -webkit-mask-image:url("CJ-removebg-preview def.png");
-    -webkit-mask-size:contain;
+    -webkit-mask-size:300px auto;
     -webkit-mask-repeat:no-repeat;
     -webkit-mask-position:center;
 }
