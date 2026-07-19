@@ -229,7 +229,7 @@ header h1{
 }
 @keyframes sweep{
     from{
-        left:50px;
+        left:75px;
     }
     to{
         left:175px;
