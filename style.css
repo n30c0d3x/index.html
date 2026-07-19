@@ -106,7 +106,17 @@ main{
     display:block;
 }
 footer{
-    background:#8B0000;
+    background: linear-gradient(
+        -45deg,
+        #7a0000,
+        #8B0000,
+        #b22222,
+        #8B0000
+    );
+
+    background-size:400% 400%;
+    animation:fondoRojo 10s ease infinite;
+
     color:white;
     text-align:center;
     padding:25px;
